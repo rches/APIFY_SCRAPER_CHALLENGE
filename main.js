@@ -46,6 +46,10 @@ Apify.main(async () => {
           );
         
             //filter for eventArray for specific information without a selector
+            const recurring = eventArray.filter(info => 
+            info.includes('Recurring'))
+            .toString();
+            
             const phone = eventArray.filter(info => 
             info.includes('Phone:'))
             .toString().replace('Phone: ', "");
@@ -70,6 +74,7 @@ Apify.main(async () => {
             "description": description,
             "date": date,
             "time": time,
+            "recurring": recurring,
         
             "place": {
                 "street": street,
