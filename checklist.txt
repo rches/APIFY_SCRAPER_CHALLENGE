@@ -1,0 +1,14 @@
+1 create the 4 files needed for upload
+-exercise 1 - 4 with proper code
+
+2 - edit 4 docs with proper code
+
+3 - test code
+
+4 - upload to github, adding readme.md
+
+5 - readme should include instructions, as well as specifics necessary to the audience
+
+6 - email github repo to abigail
+
+7 - done.
