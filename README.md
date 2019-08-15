@@ -24,7 +24,7 @@
 
 <h4>How to operate</h4>
 
-<p>Download the repo and ensure all dependencies are installed. After this, run "node challenges/challenge_X.js" in the command line where X is equal to the challenge number you want preformed.</p>
+<p>Download the repo and ensure all dependencies are installed. After this, run "npm run cX" in the command line where X is equal to the challenge number you want preformed.</p>
 
 <p>Note: Apify CLI is not being implemented, and there is no 'purge' command. Before each run, delete all key_value_stores and datasets from the apify_storage directory.</p>
 
